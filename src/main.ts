@@ -1,4 +1,6 @@
-import './assets/main.css'
+import '@/assets/styles/styles.scss'
+import '@popperjs/core';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

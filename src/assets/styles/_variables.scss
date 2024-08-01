@@ -1,1 +1,15 @@
+@use 'sass:map';
+
 $primary-color: red;
+$color-danger: #ff7879;
+$color-success: #6dc141;
+$color-warning: #fed86a;
+$color-info: #28a3a4;
+
+$colors: (
+  'danger': $color-danger,
+  'success': $color-success,
+  'warning': $color-warning,
+  'info': $color-info,
+  'primary': $primary-color
+);

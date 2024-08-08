@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+data/db
+./data/db:/data/db
+data/db:/data/db
